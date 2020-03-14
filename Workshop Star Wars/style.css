@@ -1,0 +1,97 @@
+*{background-color: rgb(49, 47, 47);
+}
+#logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+#peoplePic{
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 400px;
+  margin-right: 25px;
+  width: 250px;
+  }
+#vehiclesPic{
+  display: inline-block;
+  width: 250px;
+  }
+  #table {
+    
+    border: 3px solid green;
+    color: rgba(255, 255, 255, 0.856);
+    margin: 0 auto;
+    padding: 5px;
+  
+  }
+  table tr,
+  table td {
+    border: 2px solid green;
+    padding: 5px;
+  }
+  table tHead{
+    color: rgba(255, 255, 255, 0.856);
+    font-size:16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  a {
+    display: inline-block;
+    padding: 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 600px;
+    top: -10px; 
+  }
+  #previousBtn1 {
+    color: yellowgreen;
+    border: 1px solid white;
+    font-size: 18px;
+  }
+  #nextBtn1  {
+    color: yellowgreen;
+    border: 1px solid white;
+    font-size: 18px;
+  }
+  #table2 {
+    border: 3px solid green;
+    color: rgba(255, 255, 255, 0.856);
+    margin: 0 auto;
+    padding: 5px;
+  }
+  #previousBtn2 {
+    color: yellowgreen;
+    border: 1px solid white;
+    font-size: 18px;
+  }
+  #nextBtn2  {
+    color: yellowgreen;
+    border: 1px solid white;
+    font-size: 18px;
+  }
+  #table2 {
+    border: 3px solid green;
+    color: rgba(255, 255, 255, 0.856);
+    margin: 0 auto;
+    padding: 5px;
+    
+  }
+  table2 tr,
+  table2 td {
+    border: 2px solid green;
+    padding: 5px;
+  }
+  table2 tHead{
+    color: rgba(255, 255, 255, 0.856);
+    font-size:16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #sort,
+  #sort2,
+  #btnDelete,
+  #btnDelete2 {
+    color: rgba(255, 255, 255, 0.856);
+  };

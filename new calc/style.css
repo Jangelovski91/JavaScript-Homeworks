@@ -1,0 +1,85 @@
+body {
+    background-color: #84e2eb;
+  }
+  .container {
+    background-color: #515350;
+    border: 10px solid rgba(63, 61, 61, 0.212);
+    margin: 0 auto;
+    max-width: 480px;
+  }
+  .screen {
+    background-color: white;
+    margin: 4em auto 0 auto;
+    border: 3px solid black;
+    width: 29.5em;
+    height: 5em;
+    text-align: right; 
+      
+  }
+  
+  .screen p{
+    margin: 0.4em 1em;
+    font-size: 2.5em;
+    color:rgb(224, 5, 5);
+  }
+  
+  p {
+    color: white;
+  }
+  
+  .allclear {
+    background-color: rgba(15, 15, 15, 0.822);
+    color: white;
+    font-size: 2em;
+  }
+  
+  .clearentry {
+    background-color: rgba(15, 15, 15, 0.822);
+    color: white;
+    font-size: 2em;
+  }
+  
+   .backspace {
+    background-color: rgba(15, 15, 15, 0.822);
+    color: white;
+    font-size: 2em;
+    grid-column: 3 / 5;
+    
+  }
+  .number {
+    background-color: rgba(15, 15, 15, 0.822);
+    color: rgb(56, 175, 129);
+    font-size: 2em;
+  }
+  
+  .operator {
+    background-color: rgba(15, 15, 15, 0.822);
+    color: rgb(56, 175, 129);
+    font-size: 2em
+  }
+  
+  .decimal {
+    background-color: rgba(15, 15, 15, 0.822);
+    color: white; 
+    font-size:2em;
+     
+  }
+  
+  .equals {
+    background-color: rgba(15, 15, 15, 0.822);
+    color: white;
+    font-size: 2em;
+  }
+  
+  .buttons {
+    width: 30em;
+    height: 30em;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat (5, 1fr);
+    grid-gap: 0.2em;  
+      
+  }
+  
+  
